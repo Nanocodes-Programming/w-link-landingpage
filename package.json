@@ -1,8 +1,10 @@
 {
-  "name": "nd-landingpage",
+  "name": "w-link-landingpage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nanocodes-programming.github.io/w-link-landingpage",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
