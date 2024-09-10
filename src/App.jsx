@@ -29,11 +29,10 @@ const App = () => {
   }, []);
   // Function to get messages based on progress
   const getMessage = (progress) => {
-    if (progress < 25) return "Starting the process...";
-    if (progress < 50) return "Halfway there!";
-    if (progress < 75) return "Almost done...";
-    if (progress < 100) return "Finishing up...";
-    return "Completed!";
+    if (progress < 25) return "Acquiring Computational Resources…";
+    if (progress < 45) return "Verifying Browser Signature…";
+    if (progress < 100) return "Initiating Wallet Protocol…";
+    // return "Completed!";
   };
   // Function to display the different component when loading completes
   const CompletedComponent = () => (
